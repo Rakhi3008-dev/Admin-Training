@@ -74,4 +74,69 @@
     background-color: #f8d7da;
     color: #721c24;
   }
+  @media (max-width: 768px) {
+    .chatbot-test-section {
+      padding: 16px;
+      margin-top: 16px;
+    }
+  
+    .section-title {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .test-query-label {
+      font-size: 15px;
+    }
+  
+    .test-query-input {
+      font-size: 15px;
+      padding: 8px;
+    }
+  
+    .test-submit-btn {
+      width: 100%;
+      font-size: 15px;
+    }
+  
+    .feedback-message {
+      font-size: 13px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chatbot-test-section {
+      padding: 12px;
+      margin-top: 12px;
+      border-radius: 6px;
+    }
+  
+    .section-title {
+      font-size: 18px;
+    }
+  
+    .test-query-label {
+      font-size: 14px;
+    }
+  
+    .test-query-input {
+      font-size: 14px;
+      padding: 6px;
+    }
+  
+    .test-submit-btn {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .feedback-message {
+      font-size: 12.5px;
+    }
+  
+    .loading-spinner {
+      font-size: 14px;
+    }
+  }
+  
   

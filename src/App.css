@@ -34,3 +34,44 @@ input, button {
 .bar.low {
   background: red;
 }
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    margin: 1.5rem auto;
+  }
+
+  input, button {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .chatbot, .low-confidence, .analytics {
+    margin: 1rem 0.5rem;
+    padding: 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+
+  input, button {
+    font-size: 0.95rem;
+    padding: 0.75rem;
+  }
+
+  .chatbot, .low-confidence, .analytics {
+    padding: 0.75rem;
+    font-size: 0.95rem;
+  }
+
+  .confidence-bar {
+    height: 8px;
+  }
+
+  .bar.high, .bar.low {
+    height: 100%;
+  }
+}

@@ -27,6 +27,30 @@
     
     
   }
+  @media (max-width: 768px) {
+    .performance-chart-wrapper {
+      height: 250px;
+      padding: 0.75rem;
+      margin-right: 0;
+      padding-right: 0;
+    }
+  
+    .recharts-wrapper {
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .performance-chart-wrapper {
+      height: 220px;
+      padding: 0.5rem;
+      border-radius: 8px;
+    }
+  
+    .recharts-wrapper {
+      height: 100%;
+    }
+  }
   
   
   

@@ -76,4 +76,76 @@
   .addData-btn:hover {
     background-color: #1976d2;
   }
+  @media (max-width: 768px) {
+    .low-confidence-section {
+      padding: 16px;
+      margin-top: 16px;
+    }
+  
+    .section-title {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .queries-table {
+      font-size: 14px;
+    }
+  
+    .queries-table th,
+    .queries-table td {
+      padding: 10px 12px;
+    }
+  
+    .action-btn {
+      padding: 6px 12px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .queries-table,
+    .queries-table thead,
+    .queries-table tbody,
+    .queries-table th,
+    .queries-table td,
+    .queries-table tr {
+      display: block;
+      width: 100%;
+    }
+  
+    .queries-table thead {
+      display: none; /* Hide table headers */
+    }
+  
+    .queries-table tr {
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 10px;
+      background-color: #fafafa;
+    }
+  
+    .queries-table td {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      border: none;
+      border-bottom: 1px solid #eee;
+    }
+  
+    .queries-table td::before {
+      content: attr(data-label);
+      font-weight: bold;
+      color: #555;
+      flex-basis: 40%;
+    }
+  
+    .action-btn {
+      width: 100%;
+      margin: 5px 0;
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
   
